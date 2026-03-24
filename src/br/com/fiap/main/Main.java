@@ -37,7 +37,7 @@ import java.util.Scanner;
 
             } catch (Exception e) {
 
-                System.out.println("Houve um falha nos dados inseridos.");
+                System.out.println("ERRO! Houve um falha nos dados inseridos.\n" + e);
 
             }
         }
