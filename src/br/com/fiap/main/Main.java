@@ -14,7 +14,7 @@ import java.util.Scanner;
             Scanner scan = new Scanner(System.in);
 
             try {
-                
+
                 System.out.println("Qual a sua renda familiar ? ");
                 despesa.rendaFamiliar = scan.nextDouble();
 
@@ -33,7 +33,7 @@ import java.util.Scanner;
                 System.out.println("Qual o valor da mensalidade da academia ?");
                 despesa.valorMensalidadeDaAcademia = scan.nextDouble();
 
-                System.out.printf("A renda da família é R$%f\nO total de gastos é R$%f\nValor da renda familiar líquida é R$%f ", despesa.rendaFamiliar, despesa.calcularTotalDeDespesas(), despesa.calcularRendaFamiliarLiquida());
+                System.out.printf("A renda da família é R$%.3f\nO total de gastos é R$%.3f\nValor da renda familiar líquida é R$%.3f ", despesa.rendaFamiliar, despesa.calcularTotalDeDespesas(), despesa.calcularRendaFamiliarLiquida());
 
             } catch (Exception e) {
 
