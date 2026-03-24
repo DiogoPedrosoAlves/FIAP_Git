@@ -14,7 +14,7 @@ import java.util.Scanner;
             Scanner scan = new Scanner(System.in);
 
             try {
-
+                
                 System.out.println("Qual a sua renda familiar ? ");
                 despesa.rendaFamiliar = scan.nextDouble();
 
